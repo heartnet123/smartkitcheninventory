@@ -1,0 +1,38 @@
+# ไฟล์ ignore สำหรับโปรเจค Node.js
+
+# # ตัวติดตั้งแพคเกจ
+node_modules/
+
+# ไฟล์ล็อก
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# ไฟล์ล็อกและไดเรกทอรีของบันทึก
+logs/
+*.log
+
+# ไฟล์ล็อกของระบบแพคเกจ
+package-lock.json
+
+# Bun lock file
+bun.lockb
+
+# โฟลเดอร์ผลลัพธ์จากการบิลด์
+dist/
+build/
+
+# ไฟล์ config และ environment
+.env
+
+# ไฟล์ฐานข้อมูล SQLite
+*.sqlite
+
+# ไฟล์และโฟลเดอร์ของ IDE/Editor
+.vscode/
+.idea/
+
+# ไฟล์ระบบปฏิบัติการ
+.DS_Store
+Thumbs.db
